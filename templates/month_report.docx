@@ -1,0 +1,26 @@
+2026年7月项目月报
+
+
+项目名称：
+{{ project_name }}
+
+
+一、本月完成情况
+
+{{ completion }}
+
+
+二、存在问题
+
+
+{% for item in problems %}
+
+{{ loop.index }}. {{ item }}
+
+{% endfor %}
+
+
+
+三、下月计划
+
+{{ plan }}

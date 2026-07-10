@@ -2,25 +2,25 @@
 
 
 项目名称：
-{{ project_name }}
+{{project_name}}
 
 
 一、本月完成情况
 
-{{ completion }}
+{{completion}}
 
 
 二、存在问题
 
 
-{% for item in problems %}
+{%foriteminproblems%}
 
-{{ loop.index }}. {{ item }}
+{{loop.index}}.{{item}}
 
-{% endfor %}
+{%endfor%}
 
 
 
 三、下月计划
 
-{{ plan }}
+{{plan}}

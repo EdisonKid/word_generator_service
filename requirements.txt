@@ -4,3 +4,4 @@ docxtpl==0.18.0
 python-multipart
 jinja2
 aiofiles
+lxml>=4.9.0
